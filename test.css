@@ -19,7 +19,7 @@
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ {
   transform-origin: bottom left;
   transform: rotate(90deg);
-  height: 99vw !important;
+  height: 100vw !important;
   width: var(--server-container);
   bottom: var(--server-container);
   top: unset;
@@ -32,7 +32,7 @@
 }
 
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN {
-  padding-top: 10 !important;
+  padding-top: 15 !important;
 }
 
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN>div[style]:not(.listItem-2P_4kh) {
@@ -220,14 +220,7 @@
   max-width: unset;
   white-space: nowrap;
   margin-left: calc(var(--server-size) / -1 - 20px);
-  top: calc(var(--server-size) - 10px);
-}
-#app-mount .listItemTooltip-CDcY8J .tooltipPointer-3ZfirK {
-  transform: rotate(180deg);
-  top: -5px;
-  right: unset;
-  left: 13px;
-  z-index: 1;
+  bottom: calc(var(--server-size) - 10px);
 }
 #app-mount .friendsOnline-2JkivW {
   position: absolute;
